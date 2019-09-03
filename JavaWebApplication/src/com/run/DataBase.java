@@ -7,11 +7,11 @@ public class DataBase {
 	 String db_url="jdbc:mysql://localhost:3306/college";
 	 String uname="root";
 	 String password="password";
-     Connection conn=null;
+         Connection conn=null;
 	 Statement stmt=null;
 	 ResultSet rs=null;
-	public DataBase() {}
-	public Statement getConnection() {
+	 public DataBase() {}
+	 public Statement getConnection() {
 		try {
 			
 			Class.forName("com.mysql.jdbc.Driver");
